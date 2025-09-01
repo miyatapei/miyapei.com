@@ -1,0 +1,31 @@
+site_name: miyapei
+site_url: https://miyapei.com
+# repo_url: https://github.com/miyatapei/miyapei.com
+theme:
+  name: material
+  language: ja
+  palette:
+    scheme: default
+    primary: blue grey
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  custom_dir: overrides
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - attr_list
+  - toc:
+      permalink: true
+extra_css:
+  - stylesheets/extra.css
